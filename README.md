@@ -1,5 +1,6 @@
 РЕПОЗИТОРИЙ КОМАНДНОГО ЗАДАНИЯ НТО КОМАНДЫ "ВАРВАРИКИ"
 
+
 Шаг 1.
 Клонирование репозитория из GitHub
 
@@ -24,12 +25,55 @@ cd C:/Users/varvariki
 
 Git перешёл в нужную директорию. Теперь можно клонировать репозиторий в папку.
 
-git clone https://github.com/Varvarik38/-/new/main?readme=1
+git clone https://github.com/Varvarik38/NTO_Varvariki.git
+
+
+Шаг 2.
+Установка Виртуальной машины и симулятора Gazebo
+
+Чтобы установить Виртуальную машину настроить её, предлагаем видео-инструкцию с оффициального ютуб-канала Coex:
+
+https://youtu.be/-4TUYInDg5w?si=oF7AFUv50E1ugFKg
+
+а так же инструкцией:
+
+https://clover.coex.tech/ru/simulation_vm.html
+
+Шаг 2.1.
+Установка объектов на виртуальную машину
+
+Перед созданием мира Gazebo надо установить объекты из репозитория Бартова Артёма.
+
+https://githud/com/bart02/dronepoint
+
+После скачивания открываем Виртуальную машину и переходим в нужную папку по пути:
+
+catkin_ws/src/clover/clover_simulation/models/
+
+и переносим в эту папку следущие обЬекты:
+
+aruco_test.txt
+camera
+dronepoint_blue
+dronepoint_green
+dronepoint_red
+dronepoint_yellow
+
+![image](https://github.com/user-attachments/assets/3ab49e41-2a1c-4ad4-bb5c-4deba4ed88fe)
+
+Шаг 2.2
+Настройка симулятора
+
+При желании можно самостоятельно настроить launch-и (см. 2.2.1)
+Для автоматической настройки симулятора создаём файл, содержащий код, который проводит автонастройку симулятора и рандомно генерирует карту.
+
+!!!Код содержится в файле Varvariki.txt в репозитории по ссылке:
+
+https://github.com/Varvarik38/generation_code_Varvariki.git
 
 
 
-
-Шаг 1.
+Шаг 2.2.1. (необязательно)
 Настройка launch-ей в Виртуальной машине
 
 После запуска Виртуальной машины заходим в папку Home. Последующий путь до нужных папок: 
