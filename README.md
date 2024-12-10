@@ -50,14 +50,14 @@ https://githud/com/bart02/dronepoint
 
 catkin_ws/src/clover/clover_simulation/models/
 
-и переносим в эту папку следущие обЬекты:
+и переносим в эту папку следущие объекты (из репозитория Артёма Бартова):
 
-aruco_test.txt
-camera
+
 dronepoint_blue
 dronepoint_green
 dronepoint_red
 dronepoint_yellow
+
 
 ![image](https://github.com/user-attachments/assets/3ab49e41-2a1c-4ad4-bb5c-4deba4ed88fe)
 
